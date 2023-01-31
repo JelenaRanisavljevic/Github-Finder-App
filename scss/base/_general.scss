@@ -1,0 +1,13 @@
+/* change body color*/
+
+@use '../abstracts/' as *;
+
+body {
+    background-color: $bg-body;
+    font-family: $ff-base;
+}
+
+.wrapper {
+    max-width: 580px;
+    margin: 0 auto;
+}

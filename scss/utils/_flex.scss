@@ -1,0 +1,35 @@
+@use '../abstracts/' as *;
+
+
+.d-flex {
+    display: flex;
+    &.row {
+        flex-direction: row;
+    }
+    &.col{
+        flex-direction: column;
+    }
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.gap-4 {
+    gap: $size-4;
+}
+.gap-5{
+    gap: $size-5;
+}
+.gap-10{
+    gap:$size-10
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-around {
+    justify-content: space-around;
+}
