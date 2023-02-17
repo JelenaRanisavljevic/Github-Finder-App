@@ -1,3 +1,7 @@
+
+
+
+
 const getUser = async (username) =>{
 
     const url = `https://api.github.com/users/${username}`;
